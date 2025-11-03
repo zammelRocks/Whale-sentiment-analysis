@@ -13,6 +13,10 @@ This repository provides a **complete pipeline** for:
 - Denoising whale vocalizations
 - Evaluating and comparing multiple denoising techniques
 - Selecting the best preprocessing method for **automated call classification**
+- The project is devided into 3 main folders :
+1. state-of-the-art : Highly recomended to start with the notebook to understand the concepts (signal.ipynb, for more curiousity about the whale panic study : panic.ipynb)
+2. API : backend using fast api
+3. Frontend-Whale : frontend of the app, maritime theme
 
 ### 🐳 Workflow Comparison
 
