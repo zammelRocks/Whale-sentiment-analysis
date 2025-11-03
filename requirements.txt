@@ -8,3 +8,13 @@ torch
 demucs
 openunmix
 seaborn
+fastapi
+uvicorn
+numpy
+librosa
+soundfile
+scipy
+pydantic
+torch
+demucs
+openunmix
