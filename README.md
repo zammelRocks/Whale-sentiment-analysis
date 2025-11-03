@@ -8,6 +8,9 @@ This project introduces a cutting-edge hybrid denoising technique to extract wha
 
 ## 📘 Overview
 
+
+<img width="1723" height="957" alt="whaleAnalyzerCall" src="https://github.com/user-attachments/assets/5e6d7d1c-3ea7-4c01-bcaa-d177f3bd67f3" />
+
 This repository provides a **complete pipeline** for:
 
 - Denoising whale vocalizations
