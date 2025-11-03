@@ -96,8 +96,7 @@ This project evaluates several denoising methods. Below is a brief overview of e
   - **Bidirectional LSTM layers** capture temporal dependencies.
   - Input audio is split into frames, processed via convolutional blocks, downsampled, then upsampled in symmetric fashion, with skip-connections.
   - Final output reconstructs sources (foreground, background, noise).
-- **References:**  
-  [Défossez et al., 2021 - Hybrid Demucs](https://arxiv.org/abs/2201.04600)
+
 
 ### 3. Open-Unmix (UMX)
 
@@ -108,61 +107,42 @@ This project evaluates several denoising methods. Below is a brief overview of e
     - **Bidirectional LSTM** for sequence modeling of spectral frames.
     - Output masking to isolate target components from the mixture.
   - Can handle multi-channel (stereo) data.
-- **References:**  
-  [Stöter et al., 2019 - Open-Unmix](https://joss.theoj.org/papers/10.21105/joss.01667)
+
 
 ---
 
 ## 📝 Essential Research Papers
-
+_
 A shortlist of foundational literature for whale acoustics, signal denoising, and sentiment analysis in bioacoustics:
+1. Sentiment and Acoustic Feature Analysis
 
-### Whale Vocalization & Bioacoustics
+Human cerebral response to animal affective vocalizations : 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC2596811/
 
-- **Au, W.W.L. (1993).**  
-  _The Sonar of Dolphins._  
-  [Springer Handbook link](https://link.springer.com/book/10.1007/978-1-4757-2443-0)  
-  *Seminal reference for underwater acoustics and cetacean signal analysis.*
+A review on speech emotion recognition: A survey, recent advances, challenges, and the influence of noise :
+https://www.sciencedirect.com/science/article/abs/pii/S0925231223011384
 
-- **Payne, R.S., & McVay, S. (1971).**  
-  _Songs of humpback whales._  
-  [Science, 173(3992):585–597.](https://www.science.org/doi/10.1126/science.173.3992.585)  
-  *Groundbreaking analysis of whale song structure.*
+2. Signal Denoising & Source Separation :
 
-- **Mellinger, D.K., et al. (2007).**  
-  _An overview of fixed passive acoustic observation methods for cetaceans._  
-  [Oceanography, 20(4):36–45.](https://www.jstor.org/stable/24860812)  
-  *Overview of acoustic monitoring techniques for marine mammals.*
+Hybrid Demucs: Efficient deep learning architecture for music source separation.
+https://docs.pytorch.org/audio/stable/tutorials/hybrid_demucs_tutorial.html
 
-### Signal Denoising & Source Separation
+Open-Unmix: A reference implementation for music source separation.
+https://joss.theoj.org/papers/10.21105/joss.01667.pdf
 
-- **Défossez, A., et al. (2021).**  
-  _Hybrid Demucs: Efficient deep learning architecture for music source separation._  
-  [arXiv:2201.04600](https://arxiv.org/abs/2201.04600)  
-  *Demucs (DL-based denoising and separation) architecture details.*
+Suppression of acoustic noise in speech using spectral subtraction.
+https://ieeexplore.ieee.org/document/1163209
 
-- **Stöter, F.-R., et al. (2019).**  
-  _Open-Unmix: A reference implementation for music source separation._  
-  [Journal of Open Source Software, 4(41), 1667.](https://joss.theoj.org/papers/10.21105/joss.01667)  
-  *Open-Unmix audio source separation (used in this repo).*
+3.Whale Vocalization & Bioacoustics
 
-- **Boll, S.F. (1979).**  
-  _Suppression of acoustic noise in speech using spectral subtraction._  
-  [IEEE Transactions on Acoustics, Speech, and Signal Processing, 27(2), 113-120.](https://ieeexplore.ieee.org/document/1163209)  
-  *Classical approach for noise reduction (foundation for modern spectral denoising).*
+The Sonar of Dolphins.
+https://royalsocietypublishing.org/doi/10.1098/rsos.240650
 
-### Sentiment and Acoustic Feature Analysis
+Songs of humpback whales.
+https://www.science.org/doi/10.1126/science.173.3997.585
 
-- **Cowen, A. S., et al. (2020).**  
-  _Four areas of the brain underlie the perception of emotion in animal vocalizations._  
-  [PNAS, 117(8), 4382–4392.](https://www.pnas.org/doi/10.1073/pnas.1917004117)  
-  *Emotion recognition from non-human animal sounds.*
-
-- **Mota, J., et al. (2015).**  
-  _Speech emotion recognition: A review._  
-  [IEEE Transactions on Affective Computing, 6(4):373–387.](https://ieeexplore.ieee.org/document/6821387)  
-  *General review of methods for sentiment/emotion analysis from acoustic features.*
-
+Mellinger, D.K., et al. (2007).
+https://tos.org/oceanography/article/an-overview-of-fixed-passive-acoustic-observation-methods-for-cetaceans_
 ---
 
 *Feel free to open issues or propose additions if you know other relevant papers!*
