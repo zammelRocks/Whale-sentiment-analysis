@@ -142,7 +142,9 @@ Songs of humpback whales.
 https://www.science.org/doi/10.1126/science.173.3997.585
 
 Mellinger, D.K., et al. (2007).
-https://tos.org/oceanography/article/an-overview-of-fixed-passive-acoustic-observation-methods-for-cetaceans_
+https://tos.org/oceanography/article/an-overview-of-fixed-passive-acoustic-observation-methods-for-cetaceans
+
+
 ---
 
 *Feel free to open issues or propose additions if you know other relevant papers!*
