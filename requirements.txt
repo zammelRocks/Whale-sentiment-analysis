@@ -1,0 +1,10 @@
+numpy
+pandas
+librosa
+soundfile
+matplotlib
+scipy
+torch
+demucs
+openunmix
+seaborn
